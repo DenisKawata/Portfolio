@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== Favicon ===============-->
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
+    <!--=============== CSS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <title>Denis Kawata</title>
+</head>
+<body>
+        <!-- Nav -->
+        <div class="container px-3">
+            <nav class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+              <div class="col-md-3 mb-2 mb-md-0">
+                <a href="index.html" class="logo d-inline-flex link-body-emphasis text-decoration-none">
+                    <img src="../assets/img/favicon.ico" alt="logo" />
+                </a>
+              </div>
+        
+              <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="index.html" class="nav-link px-2 link-secondary">Inicio</a></li>
+                <li><a href="portfolio.html" class="nav-link px-2">Portfolio</a></li>
+                <li><a href="servicios.html" class="nav-link px-2">Servicios</a></li>
+                <li><a href="acerca_de.html" class="nav-link px-2">Acerca de</a></li>
+                <li><a href="recursos.html" class="nav-link px-2">Recursos</a></li>
+                <li><a href="contacto.html" class="nav-link px-2">Contacto</a></li>
+              </ul>
+            </nav>
+        </div>
+        
+        <header class="bg-body-tertiary">
+          <!-- Toggle -->
+          <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="check2" viewBox="0 0 16 16">
+              <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
+            </symbol>
+            <symbol id="circle-half" viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
+            </symbol>
+            <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+              <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path>
+              <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path>
+            </symbol>
+            <symbol id="sun-fill" viewBox="0 0 16 16">
+              <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path>
+            </symbol>
+          </svg>
+          <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+            <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (light)">
+              <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+              <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="light" aria-pressed="true">
+                  <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+                  Light
+                  <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                  <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+                  Dark
+                  <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+                </button>
+              </li>
+            </ul>
+          </div>
+      
+          <!-- Title -->
+          <div class="container px-4">
+        <main>
+          <div class="py-3 text-center">
+            <p class="lead">Diseñador y desarrollador web independiente. Sitios web personalizados con Bootstrap y Sass.</p>
+          </div>
+          <hr class="my-4">
+            <!-- Contacto -->
+            <div class="col-md-auto col-lg-auto">
+              <h4 class="mb-3 text-center">Hablemos de tu proyecto</h4>
+              <h5 class="mb-3 text-center">Después de que obtener información de usted, fijaremos un tiempo para discutir su proyecto con más detalle. Debe esperar a tener respuestas en unos días.</h5>
+              <form class="needs-validation" novalidate="">
+                <hr class="my-5">
+                <div class="row g-3">
+                    <h5 class="mb-3">Lo esencial</h5>
+                    <div class="text-secondary">
+                        <hr class="my-0">
+                    </div>
+                  <div class="col-sm-6">
+                    <label for="firstName" class="form-label">Nombre/s  *</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                    <div class="invalid-feedback">
+                      Se requiere un nombre válido.
+                    </div>
+                  </div>
+      
+                  <div class="col-sm-6">
+                    <label for="lastName" class="form-label">Apellido/s  *</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                    <div class="invalid-feedback">
+                      Se requiere un apellido válido.
+                    </div>
+                  </div>
+
+      
+                  <div class="col-sm-6">
+                    <label for="email" class="form-label">Email  *</label>
+                    <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+                    <div class="invalid-feedback">
+                      Ingrese una dirección de correo electrónico válida para actualizaciones de envío.
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6">
+                    <label for="PhoneNumber" class="form-label">Telefono</label>
+                    <input type="text" class="form-control" id="PhoneNumber" placeholder="">
+                  </div>
+                </div>
+                
+                <h5 class="mb-3 py-4">Compañía</h5>
+                    <div class="text-secondary">
+                        <hr class="my-0">
+                    </div>
+                <div class="row g-3">    
+                    <div class="col-sm-6 py-3">
+                        <label for="CompanyName" class="form-label">Nombre de empresa</label>
+                        <input type="text" class="form-control" id="CompanyName" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                            Se requiere un nombre de empresa válido.
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-6 py-3">
+                        <label for="website" class="form-label">Sitio web</label>
+                        <input type="text" class="form-control" id="website" placeholder="" required="">
+                        <div class="invalid-feedback">
+                            Se requiere un sitio web válido.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3 py-1">
+                    <label for="exampleFormControlTextarea1" class="form-label">Describa la empresa</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <div class="mb-3 py-1">
+                    <label for="exampleFormControlTextarea1" class="form-label">¿Cuáles son los fines y objetivos del proyecto?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <div class="mb-3 py-1">
+                    <label for="exampleFormControlTextarea1" class="form-label">¿Cuáles son los objetivos principales del sitio web?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                  
+                <div class="mb-3 py-1">
+                    <label for="exampleFormControlTextarea1" class="form-label">¿Cuáles son los objetivos a largo plazo del sitio web?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>  
+                
+                <div class="row g-3">    
+                    <div class="col-sm-6 py-1">
+                        <label for="Budget" class="form-label">Presupuesto</label>
+                        <input type="text" class="form-control" id="Budget" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                            Se requiere un presupuesto válido.
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-6 py-1">
+                        <label for="Deadline" class="form-label">Fecha límite</label>
+                        <input type="text" class="form-control" id="Deadline" placeholder="" required="">
+                        <div class="invalid-feedback">
+                            Se requiere una fecha límite válido.
+                        </div>
+                    </div>
+                </div>
+
+                <h5 class="mb-3 py-4">Audiencia</h5>
+                    <div class="text-secondary">
+                        <hr class="my-0">
+                    </div>
+                
+                    <div class="mb-3 py-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">¿Quiénes son su público objetivo?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <div id="textHelp" class="form-text">Rangos de edad, género, frecuencia en línea, etc.</div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">¿Cómo interactuará su audiencia con el sitio web?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <div id="textHelp" class="form-text">Lea contenido, vea videos, inscríbase en un curso, etc.</div>
+                    </div>
+                
+                    <h5 class="mb-3 py-4">Competidores</h5>
+                    <div class="text-secondary">
+                        <hr class="my-0">
+                    </div>
+
+                    <div class="mb-3 py-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">¿Enumere sus principales competidores?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">¿Qué hace que su empresa sea diferente y única?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <h5 class="mb-3 py-4">Contenido</h5>
+                    <div class="text-secondary">
+                        <hr class="my-0">
+                    </div>
+
+                    <div class="mb-3 py-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">¿Tienes listo el contenido de tu sitio web?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <div id="textHelp" class="form-text">Por ejemplo, texto para cada página, fotos, etc.</div>
+                    </div>
+
+                    <h5 class="mb-3 py-4">Diseño</h5>
+                    <div class="text-secondary">
+                        <hr class="my-0">
+                    </div>
+
+                    <div class="mb-3 py-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">¿Tiene pautas de marca?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <div id="textHelp" class="form-text">Logotipo, combinación de colores, fuentes, etc.</div>
+                    </div>
+
+                    <div class="mb-3 py-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">¿Cuál es su apariencia deseada para el sitio web?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <div id="textHelp" class="form-text">Moderno, minimalista, colorido, etc</div>
+                    </div>
+
+                    <div class="mb-3 py-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Enumere 5 sitios web que le gustan y explique por qué.</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <input type="checkbox" class="form-check-input" id="same-address">
+                        <label class="form-check-label" for="same-address">Marque la casilla si su empresa tiene un sitio web actual.</label>
+                    </div>
+
+                    <h5 class="mb-3 py-4">Desarrollo</h5>
+                    <div class="text-secondary">
+                        <hr class="my-0">
+                    </div>
+
+                    <div class="mb-3 py-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Enumere las páginas que necesita?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <div id="textHelp" class="form-text">Por ejemplo, Inicio, Acerca de nosotros, Servicios, Blog, Contáctenos</div>
+                    </div>
+
+                    <div class="mb-3 py-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">¿Qué características desea incluir en el sitio web?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <div id="textHelp" class="form-text">Por ejemplo, feed de Twitter, formulario de contacto, galería de fotos</div>
+                    </div>
+
+                    <div class="mb-3 py-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">¿Tiene un nombre de dominio actual y un paquete de alojamiento?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <div id="textHelp" class="form-text">Consulte nuestro artículo <a href="#">Comprender el alojamiento de sitios web y los nombres de dominio</a> si no está seguro o si necesita más información.</div>
+                    </div>
+
+                <hr class="my-4">
+      
+                <div class="col-12">
+                    <label for="firstName" class="form-label">Privacidad  *</label>
+                    <div id="textHelp" class="form-text"><p>Al utilizar este formulario, usted acepta el almacenamiento y manejo de sus datos por parte de este sitio web.</p><p>Lea nuestra <a href="#">Política de privacidad</a> para obtener más información sobre cómo manejamos sus datos.</p></div>
+                    <input type="checkbox" class="form-check-input" id="same-address">
+                        <label class="form-check-label" for="same-address">Estoy de acuerdo</label>
+                </div>
+
+                <div class="col-sm-9 py-4">
+                    <button class="w-25 btn btn-primary btn-lg" type="submit">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </main>
+      
+
+          </div>
+        </header>
+        <!-- Footer -->
+        <div class="container px-3">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-5 d-flex align-items-center">
+                <span class="mb-3 mb-md-0 text-body-secondary">Copyright © 2023 Denis Kawata • Desarrollador web</span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-4"><a class="text-body-secondary" href="https://www.linkedin.com/in/deniskawata/"><i class="bi bi-linkedin"></i></a></li>
+                <li class="ms-4"><a class="text-body-secondary" href="https://github.com/DenisKawata"><i class="bi bi-github"></i></a></li>
+              </ul>
+            </footer>
+        </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</html>
