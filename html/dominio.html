@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== Favicon ===============-->
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
+    <!--=============== CSS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <title>Denis Kawata</title>
+</head>
+<body>
+        <!-- Nav -->
+        <div class="container px-3">
+            <nav class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+              <div class="col-md-3 mb-2 mb-md-0">
+                <a href="index.html" class="logo d-inline-flex link-body-emphasis text-decoration-none">
+                    <img src="../assets/img/favicon.ico" alt="logo" />
+                </a>
+              </div>
+        
+              <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="index.html" class="nav-link px-2 link-secondary">Inicio</a></li>
+                <li><a href="portfolio.html" class="nav-link px-2">Portfolio</a></li>
+                <li><a href="servicios.html" class="nav-link px-2">Servicios</a></li>
+                <li><a href="acerca_de.html" class="nav-link px-2">Acerca de</a></li>
+                <li><a href="recursos.html" class="nav-link px-2">Recursos</a></li>
+                <li><a href="contacto.html" class="nav-link px-2">Contacto</a></li>
+              </ul>
+            </nav>
+        </div>
+        
+        <header class="bg-body-tertiary">
+          <!-- Toggle -->
+          <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="check2" viewBox="0 0 16 16">
+              <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
+            </symbol>
+            <symbol id="circle-half" viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
+            </symbol>
+            <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+              <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path>
+              <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path>
+            </symbol>
+            <symbol id="sun-fill" viewBox="0 0 16 16">
+              <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path>
+            </symbol>
+          </svg>
+          <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+            <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (light)">
+              <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+              <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="light" aria-pressed="true">
+                  <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+                  Light
+                  <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                  <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+                  Dark
+                  <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+                </button>
+              </li>
+            </ul>
+          </div>
+      
+          <!-- Title -->
+          <div class="container">
+        <main>
+          <div class="py-5 text-center">
+            <p class="lead">Diseñador y desarrollador web independiente. Sitios web personalizados con Bootstrap y Sass.</p>
+          </div>
+          <!-- Thumbnail -->
+          <div class="row px-3 g-5">
+            <div class="col-md-3 col-lg-3 order-md-last">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categorias
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="navegador.html">Navegador</a></li>
+                      <li><a class="dropdown-item" href="recursos_dev_web.html">Desarrollo de sitio web</a></li>
+                      <li><a class="dropdown-item" href="recursos.html">Recursos</a></li>
+                      <li><a class="dropdown-item" href="servicios.html">Servicios</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Preguntas -->
+            <div class="col-md-9 col-lg-9 px-4">
+              <img src="../assets/img/host.png" class="bd-placeholder-img card-img-top" alt="navegadores">
+                    <div class="card-body py-2">
+                      <h5 class="fw-normal">Comprender el alojamiento de sitios web y los nombres de dominio</h5>
+                      <div id="textHelp" class="form-text p-1">
+                        por Denis Kawata
+                      </div>
+                    </div>  
+                      <hr class="my-0 py-2">
+              <p class="card-text py-2">Comprender el papel de una empresa de alojamiento externo al embarcarse en un proyecto de sitio web puede ser un poco abrumador. De repente te enfrentas a una jerga tecnológica con la que quizás nunca te hayas topado. La compra de un nombre de dominio y un paquete de alojamiento es esencial para cada proyecto de sitio web, por lo que nuestro objetivo es explicar las funciones de cada servicio para asegurarnos de que comprenda exactamente por qué necesita realizar estas compras.</p>
+              <br>
+              <h5 class="fw-normal">Nombre de Dominio / Dirección Web</h5>
+              <p class="card-text py-2">Cada sitio web tiene un nombre de dominio único para identificarlo del resto. Por ejemplo, el nombre de dominio de este sitio web es www.deniskawata.com . Los nombres de dominio también se denominan a veces 'direcciones web' o 'URL'. Tener un nombre de dominio único para su empresa le permite a su audiencia buscar su sitio web a través de Google o escribirlo manualmente en la barra de búsqueda de su navegador. Para obtener un nombre de dominio para su empresa, deberá ponerse en <a href="https://www.hostinger.com.ar/">contacto con una empresa de alojamiento</a> que configurará todo por usted.</p>
+              <br>
+              <h5 class="fw-normal">Paquete de alojamiento</h5>
+              <p class="card-text py-2">Una vez que haya obtenido su nombre de dominio, deberá <a href="https://www.hostinger.com.ar/hosting-web">comprar un paquete de alojamiento</a>. Un host o servidor de sitio web es un espacio en Internet en el que podemos colocar los archivos de su sitio web para que sea visible para el público. Es similar a tener una carpeta en el escritorio de su computadora con archivos dentro. Un host de sitio web es simplemente una carpeta en el servidor en línea de su empresa de alojamiento que contiene los archivos de su sitio web y los hace visibles al público.</p>
+              <br>
+              <h5 class="fw-normal">Paquetes de alojamiento recomendados</h5>
+              <p class="card-text py-2">La mayoría de los sitios web funcionarán perfectamente en <a href="https://www.hostinger.com.ar/comprar-hosting">plan de alojamiento Hosting Premium</a>. Si no tiene un paquete de alojamiento, le recomendaría que elija <a href="https://www.hostinger.com.ar/">Hostinger</a>, ya que tienen una excelente atención al cliente y nunca hay problemas con ellos.</p>
+              <p class="card-text">Tienda en línea / alojamiento de comercio electrónico</p>
+              <p class="card-text">Si planea vender productos en su sitio web utilizando una solución de comercio electrónico, <a href="https://www.hostinger.com.ar/comprar-hosting">plan de alojamiento Hosting Premium</a> también le conviene perfectamente si tiene menos de 50 productos. Sin embargo, si planea vender una mayor cantidad de productos o tendrá un gran volumen de personas que visitan su sitio web, entonces debe optar por el <a href="https://www.hostinger.com.ar/cloud-hosting">alojamiento en la nube</a>. Si no está seguro de cuál es la mejor opción de alojamiento para usted, póngase <a href="contacto.html">en contacto con nosotros</a> antes de realizar una compra.</p>
+              <p class="card-text">Certificado SSL</p>
+              <p class="card-text">Si planea permitir que sus clientes compren productos en su sitio web utilizando una tarjeta de crédito, deberá tener un certificado SSL. Un certificado SSL se puede considerar como una caja de seguridad para sus datos. No hace que sea más difícil para nadie obtener los datos, pero encripta los datos hasta el punto de que nadie puede entenderlos. Además de cifrar los datos, el certificado SSL garantiza a los visitantes que su negocio es legítimo y que no intentará defraudarlos de ninguna manera. También necesitará una <a href="https://www.hostinger.com.ar/certificado-ssl-gratis">IP dedicada / IP estática</a> junto con el certificado SSL.</p>       
+              <br>      
+            </div>
+          </div>
+        </main>
+        <nav aria-label="...">
+          <ul class="pagination justify-content-center">
+            <li class="page-item">
+              <a class="page-link" href="navegador.html">« Navegador</a>
+            </li>
+            <li class="page-item disabled">
+              <span class="page-link">Dominio</span>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="recursos_dev_web.html">Desarrollo sitio web »</a>
+            </li>
+          </ul>
+        </nav>
+        <br>
+
+          </div>
+        </header>
+        <!-- Footer -->
+        <div class="container px-3">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-5 d-flex align-items-center">
+                <span class="mb-3 mb-md-0 text-body-secondary">Copyright © 2023 Denis Kawata • Desarrollador web</span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/deniskawata/"><i class="bi bi-linkedin"></i></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://github.com/DenisKawata"><i class="bi bi-github"></i></a></li>
+              </ul>
+            </footer>
+          </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</html>
